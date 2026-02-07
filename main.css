@@ -15,19 +15,15 @@ body{
 }
 
  .poem {
-    line-height: 1.8;
-    margin-top: 15px;
+    line-height: 1;
     font-weight: normal;
-  }
-
-  .poem p {
-    margin-bottom: 20px;
+    font-size: 10px;
   }
 
 .parent{
     background-color: #eeeedd;
     width: 480px;
-    height: 480px;
+    height: 450px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -74,7 +70,8 @@ body{
 .child h3{
     font-weight: 100;
     text-align: justify;
-    font-size: 18px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .child button{
