@@ -15,17 +15,17 @@ body{
 }
 
  .poem {
-    line-height: 1;
-    font-weight: bold;
-     letter-spacing: 0.1px;
+    line-height:1;
+    font-weight: normal;
+     letter-spacing: 2px;
      font-size: 8px;
-     
-    t-family: vintage-serif;
+     font-style: italic;
+    font-family: Cambria, serif;
   font-feature-settings: "liga" 1, "kern" 1, "onum" 1, "calt" 1;
   color: ink;
   line-height: 1;                
   font-size: 8;
-  letter-spacing: 2px;
+  letter-spacing: px;
   hanging-punctuation: first last;   /* nicer alignment for quotes */
   text-wrap: balance;
   }
