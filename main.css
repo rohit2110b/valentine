@@ -14,6 +14,16 @@ body{
     background-repeat: repeat;
 }
 
+ .poem {
+    line-height: 1.8;
+    margin-top: 15px;
+    font-weight: normal;
+  }
+
+  .poem p {
+    margin-bottom: 20px;
+  }
+
 .parent{
     background-color: #eeeedd;
     width: 480px;
