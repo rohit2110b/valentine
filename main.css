@@ -16,14 +16,25 @@ body{
 
  .poem {
     line-height: 1;
-    font-weight: normal;
-    font-size: 10px;
+    font-weight: bold;
+     letter-spacing: 0.1px;
+     font-size: 8px;
+     
+    t-family: vintage-serif;
+  font-feature-settings: "liga" 1, "kern" 1, "onum" 1, "calt" 1;
+  color: ink;
+  line-height: 1;                
+  font-size: 8;
+  letter-spacing: 2px;
+  hanging-punctuation: first last;   /* nicer alignment for quotes */
+  text-wrap: balance;
   }
+
 
 .parent{
     background-color: #eeeedd;
     width: 480px;
-    height: 450px;
+    height: 480px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -70,7 +81,7 @@ body{
 .child h3{
     font-weight: 100;
     text-align: justify;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
 }
 
