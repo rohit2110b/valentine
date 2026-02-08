@@ -1,3 +1,6 @@
+var messages = ["Yes", "Are you sure?", "Really sure??", "Think again!", "Last chance!", "Surely not!", "PLEASE??"];
+var messageIndex = 0;
+
 function toggleDiv1122(){
     var div11 = document.getElementById('div11');
     var div22 = document.getElementById('div22');
@@ -37,8 +40,6 @@ function toggleDiv1(){
     } 
 }
 
-
-
 function increaseSize(){
     var button1 = document.getElementById('btn-yes');
     var maxSize = 500;
@@ -48,6 +49,8 @@ function increaseSize(){
         currentSize += 30;
         if (currentSize<maxSize){
             button1.style.padding = currentSize+'px';
+            messageIndex = (messageIndex + 1) % messages.length;
+            button1.innerText = messages[messageIndex];
         }else{
             resetButtonSize();
         }
@@ -58,6 +61,8 @@ function increaseSize(){
 function resetButtonSize(){
     var button = document.getElementById('btn-yes');
     button.style.padding = '8px';
+    button.innerText = messages[0]; // Reset text to "Yes"
+    messageIndex = 0; // Reset index
 }
 
 
