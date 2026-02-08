@@ -46,7 +46,7 @@ function increaseSize(){
     var currentSize = parseInt(window.getComputedStyle(button1).getPropertyValue('padding'));
 
     function increaseButtonSize(){
-        currentSize += 40;
+        currentSize += 30;
         if (currentSize<maxSize){
             button1.style.padding = currentSize+'px';
             messageIndex = (messageIndex + 1) % messages.length;
