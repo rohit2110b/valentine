@@ -1,4 +1,4 @@
-var messages = ["Yes", "Are you sure?", "Really sure??", "Think again!", "You’re breaking my heart... 💔","Okay, now you're just being mean. 😭","I thought we had something special...","Are you literally a robot 🤖?","I’m not mad, just disappointed. 😞","You're making the 'Yes' button feel lonely!"];
+var messages = ["Yes", "Are you sure?", "Really sure??", "Think again!", "You’re breaking my heart... 💔","Okay, now you're just being mean. 😭","I thought we had something special...💔","Are you literally a robot 🤖?","I’m not mad, just disappointed. 😞","Seems like end of options, telling you we're meant to be together since click yes baby."];
 var messageIndex = 0;
 
 function toggleDiv1122(){
