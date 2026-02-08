@@ -1,4 +1,4 @@
-var messages = ["Yes", "Are you sure?", "Really sure??", "Think again!", "Last chance!", "Surely not!", "PLEASE??"];
+var messages = ["Yes", "Are you sure?", "Really sure??", "Think again!", "Last chance!", "Surely not!", "PLEASE??", "You’re breaking my heart... 💔","Okay, now you're just being mean. 😭"];
 var messageIndex = 0;
 
 function toggleDiv1122(){
