@@ -1,6 +1,6 @@
 var messages = ["Yes", "Are you sure?", "Really sure??", "Think again!", "You’re breaking my heart... 💔","Okay, now you're just being mean. 😭","I thought we had something special...💔","Are you literally a robot 🤖?","I’m not mad, just disappointed. 😞","Seems like end of options, telling you we're meant to be together since click yes baby."];
 var messageIndex = 0;
-
+const sound = new Audio('a5.mp3');
 function toggleDiv1122(){
     var div11 = document.getElementById('div11');
     var div22 = document.getElementById('div22');
@@ -80,4 +80,5 @@ function toggleDiv2(){
         div3.style.display = 'none';
         hearts.style.display = 'none';
     }
+    sound.play();
 }
